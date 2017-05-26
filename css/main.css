@@ -1,0 +1,294 @@
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent;
+}
+
+/* CUSTOM FONTS AND USES
+  Josefin Sans- all headers
+  Noto Serif- all body copy
+  Helvetica- all dates and categories
+  Dancing Script- write thirsty my friends */
+
+body {
+  background-color: #ffffff;
+}
+
+a {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+/* black nav bar at top */
+
+nav {
+  background-color: #2E2D2B;
+  height: 80px;
+  width: 100%;
+  position: absolute;
+  z-index: 2;
+}
+
+/* nav menu */
+
+.nav-row {
+  display: flex;
+  justify-content: center;
+  list-style-type: none;
+  padding-top: 23px;
+  padding-bottom: 26px;
+}
+
+.nav-item {
+  width: 33.3%;
+  font-family: josefin sans;
+  text-transform: uppercase;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+/* centering individual nav items */
+
+.nav-item:first-of-type {
+  padding-left: 15%;
+}
+
+.nav-item:nth-of-type(2) {
+  padding-left: 15%;
+}
+
+.nav-item:last-of-type {
+  padding-left: 11%;
+}
+
+/* making facebook symbol larger */
+
+.fa-facebook {
+  font-size: 200%;
+}
+
+/* out of nav, into header */
+
+/*header image*/
+
+.page-header {
+  background-image: url("../img/header-img.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+  height: 681px;
+}
+
+/*header text*/
+
+.header-content {
+  text-align: center;
+}
+
+/*iBeer*/
+
+.main-heading {
+  font-family: josefin sans;
+  font-size: 150px;
+  color: #2E2D2B;
+  position: relative;
+  top: 250px;
+}
+
+/*Write Thirsty...*/
+
+.sub-heading {
+  font-family: dancing script;
+  color: #ffffff;
+  font-size: 80px;
+  text-shadow: 2px 2px 3px #2E2D2B;
+  position: relative;
+  top: 189px;
+}
+
+/*out of header, into main tan box*/
+
+main {
+  background-attachment: scroll;
+  background-color: #FEF9EC;
+  width: 90%;
+  position: relative;
+  left: 5%;
+  top: -80px;
+  box-shadow: 0px 4px 5px #5E5E5D;
+  padding: 30px 50px 20px 50px;
+}
+
+/* out of main tan box, into blog boxes */
+
+.blog-row {
+  display: flex;
+  flex-direction: column;
+  width: 64%;
+  align-items: center;
+}
+
+.item {
+  background-color: #ffffff;
+  margin: 40px 50px 0px 85px;
+  box-shadow: 0.05px 3px 6px #5E5E5D;
+  padding: 35px 20px 32px 25px;
+}
+
+/*out of blog boxes, into inside elements of boxes*/
+
+/* icons */
+.fa-flask {
+  color: #ffffff;
+  background-color: #EFEADF;
+  border-radius: 50%;
+  text-align: center;
+  padding: 18px;
+  position: absolute;
+  left: 32.5%;
+}
+
+.fa-newspaper-o {
+  color: #ffffff;
+  background-color: #EFEADF;
+  border-radius: 50%;
+  text-align: center;
+  padding: 18px;
+  position: absolute;
+  left: 32.5%;
+}
+
+.fa-plane {
+  color: #ffffff;
+  background-color: #EFEADF;
+  border-radius: 50%;
+  text-align: center;
+  padding: 18px;
+  position: absolute;
+  left: 32.5%;
+}
+
+/*date and category*/
+
+.meta {
+  font-family: Helvetica, Arial, sans-serif;
+  text-transform: uppercase;
+  font-size: 12px;
+  font-weight: 400;
+  color: #5E5E5D;
+  /* saw how to do bottom border blur from http://blog.w3conversions.com/2011/09/css3-spread-value-and-box-shadow-on-one-side-only/*/
+  box-shadow: 0 0 0 4px #ffffff, 0 6px 4px #5E5E5D;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 54px;
+}
+
+.date .category {
+  width: 50%;
+}
+
+.date {
+  padding-right: 60px;
+}
+
+.category {
+  padding-left: 60px;
+}
+
+/* out of date and category, into body copy */
+
+.entry-title {
+  font-family: josefin sans;
+  font-size: 24px;
+  color: #2E2D2B;
+  line-height: 1.25em;
+}
+
+.primary-txt {
+  font-family: 'Noto Serif';
+  font-size: 15px;
+  line-height: 2.15em;
+}
+
+/* out of body copy, into images  250 x 250*/
+
+.blog-img {
+  float: right;
+  background-size: cover;
+  background-position: center;
+  width: 250px;
+  height: 250px;
+  margin-left: 15px;
+}
+
+#dino {
+  background-image: url("../img/dino.jpg");
+}
+
+#xx {
+  background-image: url("../img/xx.png");
+  margin-bottom: 10px;
+}
+
+#yhact-img {
+  background-image: url("../img/yhact.jpg");
+}
+
+/*out of blog boxes completely, into aside */
+
+/*aside tan box*/
+
+aside {
+  position: absolute;
+  top: 70px;
+  left: 755px;
+  max-height: 2000px;
+  background-color: #EFEADF;
+  box-shadow: 0px 4px 5px #5E5E5D;
+  width: 350px;
+  padding: 32px;
+}
+
+/*out of aside tan box, into aside img*/
+
+.auth-pic {
+  background-image: url("../img/author.jpeg");
+  border-radius: 50%;
+  background-size: cover;
+  margin-left: auto;
+  margin-right: auto;
+  width: 200px;
+  height: 200px;
+  margin-bottom: 55px;
+}
+
+/*out of aside img, into aside text*/
+
+.aside-heading {
+  font-family: josefin sans;
+  font-size: 24px;
+  text-align: center;
+  padding-bottom: 34px;
+  border-bottom: 2px solid #4F4F50;
+  margin-bottom: 33px;
+}
+
+/*footer*/
+
+footer {
+  background-color: #323232;
+  font-family: 'Novo Serif';
+  font-size: 12px;
+  text-transform: uppercase;
+  text-align: center;
+  color: #ffffff;
+  height: 30px;
+  padding-top: 8px;
+}
