@@ -1,7 +1,6 @@
 # README
 
-Jonathan Goldsmith, the XX guys, needs to update the style of his 'i Beer' blog. His current blog has no styling whatsoever. 
-He has provided you with a mockup and your job is to add styling to the current HTML.
+Jonathan Goldsmith, the XX guy, needs to update the style of his 'i Beer' blog. His current blog has no styling whatsoever. 
 
 Style the given HTML document to match the 'blog' mockup using the following:
 
