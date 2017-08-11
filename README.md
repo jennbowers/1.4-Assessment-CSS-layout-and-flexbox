@@ -9,18 +9,18 @@ Style the given HTML document to match the 'blog' mockup using the following:
 - Flexbox
 - Adjacent values
 
-Fonts  
-
-For this project we are using the 'Google fonts' API. We have already imported the fonts for you (see head). The fonts are:
-- 'Josefin Sans'
-- 'Noto Serif'
-- 'Dancing Script'
-
 ## Resources
 
 ### Screenshots & Starter Files
 
 He has provided you with a mockup and your job is to add styling to the current HTML.
+
+### Fonts  
+
+For this project we are using the 'Google fonts' API. We have already imported the fonts for you (see head). The fonts are:
+- 'Josefin Sans'
+- 'Noto Serif'
+- 'Dancing Script'
 
 
 
